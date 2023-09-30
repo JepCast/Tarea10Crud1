@@ -18,6 +18,7 @@ public class Main {
             System.out.println("Ups, hubo un error en la conexion: " + e.getMessage());
         }
     }
+
     private static void closeConnection() {
         try {
             if (conn != null) {
